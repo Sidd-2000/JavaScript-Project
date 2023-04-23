@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.calender-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    background-color: salmon;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(250, 134, 134, 0.7);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(241, 186, 186);
+    background-color: rgb(241, 107, 58);
+    border-radius: 10px 10px 0 0;
+    width: 25%;
+    height: 80px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    flex-direction: column;
+    background-color: rgb(209, 190, 184);
+    border-radius: 0 0 10px 10px;
+    width: 25%;
+    height: 50%;
+}
+
+.day {
+    position: absolute;
+    top: 25%;
+    font-size: 25px;
+}
+
+.Today {
+    font-size: 120px;
+    font-weight: 500;
+    color: rgb(5, 5, 5);
+}
+
+.year {
+    position: absolute;
+    font-size: 35px;
+    font-weight: 100;
+    top: 55%;
+}
